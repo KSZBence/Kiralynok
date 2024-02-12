@@ -5,7 +5,7 @@
 package kiralynok;
 
 import modell.Tabla;
-
+import vezerlo.Vezerlo;
 /**
  *
  * @author Banjo
@@ -17,6 +17,7 @@ public class Kiralynok {
      */
     public static void main(String[] args) {
         Tabla t1 = new Tabla('x');
+        
     }
     
 }
