@@ -8,10 +8,14 @@ package nezet;
  *
  * @author Banjo
  */
-public class Nezet extends javax.swing.JFrame{
-
-    public Nezet() {
-        
+public class Nezet {
+    public Nezet(char[][] tabla) {
+        for (char[] sor : tabla) {
+            for (char elem : sor) {
+                System.out.print(elem);
+            }
+            System.out.println("");
+        }
     }
     
 }

@@ -8,16 +8,15 @@ package vezerlo;
  *
  * @author Banjo
  */
+import modell.Tabla;
 import nezet.Nezet;
 
 public class Vezerlo {
-    private char[][] tabla;
+    private Tabla tabla;
     
-    public Vezerlo(char[][] tabla) {
-        this.tabla = tabla;
-        Nezet n1 = new Nezet();
-        
-        
+    public Vezerlo() {
+        this.tabla = new Tabla('x');
+        Nezet n = new Nezet(tabla.getT());
         
         
     }

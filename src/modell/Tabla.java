@@ -85,6 +85,12 @@ public class Tabla {
         }
         return uresSorok;
     }
+
+    public char[][] getT() {
+        return t;
+    }
+    
+    
 }
 
     

@@ -16,8 +16,7 @@ public class Kiralynok {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Tabla t1 = new Tabla('x');
-        
+        new Vezerlo();
     }
     
 }
