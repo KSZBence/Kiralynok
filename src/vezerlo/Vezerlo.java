@@ -16,8 +16,8 @@ public class Vezerlo {
     
     public Vezerlo() {
         this.tabla = new Tabla('x');
-        Nezet n = new Nezet(tabla.getT());
-        
+        Nezet n = new Nezet();
+        n.setVisible(true);
         
     }
     

@@ -86,7 +86,7 @@ public class Tabla {
         return uresSorok;
     }
 
-    public char[][] getT() {
+    public char[][] getTabla() {
         return t;
     }
     
